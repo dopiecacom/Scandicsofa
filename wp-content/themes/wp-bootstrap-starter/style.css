@@ -1088,6 +1088,24 @@ body:not(.theme-preset-active) footer#colophon {
 	}
 	
 	
+	
+	#kafel1{
+		background-image: url("/wp-content/uploads/img/kafel1.jpg");
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:400px;
+		width:400px;
+	}
+	
+	#kafel1-text{
+		display: block;
+		position: absolute;
+		margin: 60px 310px;
+		background-color: brown;
+		height: 270px;
+		width: 700px;
+	}
 
 
 
