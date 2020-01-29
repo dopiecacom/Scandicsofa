@@ -20,7 +20,7 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 # Navigation
 	## Links
 	## Menus
-# Accessibility
+	# Accessibility
 # Alignments
 # Clearings
 # Widgets
@@ -288,7 +288,7 @@ header#masthead {
   margin-bottom: 0;
   background-color: #563d7c ;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
-  padding: .74rem 1rem;
+ 
 }
 
 .navbar-brand > a {
@@ -365,7 +365,9 @@ a.page-scroller {
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
   color: #cdbfe3;
-  padding: 0.5rem;
+padding-top:50px;
+padding-bottom:35px;
+padding-left: 75px;
   font-weight: 500;
   font-size: 0.875rem;
 }
