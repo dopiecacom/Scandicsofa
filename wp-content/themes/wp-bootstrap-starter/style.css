@@ -1036,3 +1036,63 @@ body:not(.theme-preset-active) footer#colophon {
     font-size: 75%;
   }
 }
+
+
+
+/* ############################################### */
+/* ############################################### */
+/* ################ CUSTOM STYLES ################ */
+/* ############################################### */
+/* ############################################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#footer-logo{
+		height: 20px;
+		margin-bottom: 50px;
+	}
+
+	body footer#colophon{
+		background-color: transparent!important;
+	}
+	
+	#footer-leftcol p {
+		font-weight: 650;
+		letter-spacing: 0.7px;
+		color: black;
+		margin-bottom: 0em;
+	}
+	
+	#footer-rightcol p {
+		font-weight: 650;
+		color: black;
+	}
+	
+	#footer-low{
+		margin-top: 20px;
+		font-weight: 650;
+		text-align: center;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
