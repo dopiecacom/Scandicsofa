@@ -1047,7 +1047,7 @@ body:not(.theme-preset-active) footer#colophon {
 /* ############################################### */
 /* ############################################### */
 
-.logo img{
+..logo img{
 	height:25px;
 }
 .owl-theme .owl-dots {
@@ -1060,7 +1060,7 @@ body:not(.theme-preset-active) footer#colophon {
 .baner-wrapper{
 	
 	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
-	      padding-top: 10px;
+	      padding-top: 0px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -1092,7 +1092,7 @@ button:focus {outline:0;}
 .baner-modal{
 position: absolute;
     top: 46px;
-    left: -425px;
+ left: -365px;
     height: 450px;
     width: 811px;
        background-color: rgba(212, 174, 131, 0.6);
@@ -1130,6 +1130,10 @@ position: absolute;
 }
 
 
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
+	COLOR:#e5ceb5;
+
+}
 header#masthead {
 
     box-shadow: none;
