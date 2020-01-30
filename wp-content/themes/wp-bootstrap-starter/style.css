@@ -1060,7 +1060,7 @@ body:not(.theme-preset-active) footer#colophon {
 .baner-wrapper{
 	
 	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
-	      padding-top: 0px;
+	      padding-top: 10px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -1092,7 +1092,7 @@ button:focus {outline:0;}
 .baner-modal{
 position: absolute;
     top: 46px;
- left: -365px;
+    left: -425px;
     height: 450px;
     width: 811px;
        background-color: rgba(212, 174, 131, 0.6);
@@ -1130,12 +1130,6 @@ position: absolute;
 }
 
 
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
-	COLOR:#e5ceb5;
-
-}
-
-
 header#masthead {
 
     box-shadow: none;
@@ -1156,35 +1150,217 @@ header#masthead {
 		letter-spacing: 0.7px;
 		color: black;
 		margin-bottom: 0em;
+		font-family: Poppins-Light;
+		line-height: 17px;
 	}
 	
 	#footer-rightcol p {
 		font-weight: 650;
 		color: black;
+		font-family: Poppins-Light;
+		text-align: justify;
+		line-height: 17px;
 	}
 	
 	#footer-low{
 		margin-top: 20px;
-		font-weight: 650;
 		text-align: center;
+		font-family: Montserrat-Light;
 	}
 	
 	
 	
 	#kafel1{
 		background-image: url("/wp-content/uploads/img/kafel1.jpg");
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		height:531px;
-		width:686px;
-		padding: 20px 0px 0px 475px;
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	
-	#kafel1-text{
+	#kafel2{
+		background-image: url("/wp-content/uploads/img/kafel2.jpg");
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		    background-position: 219px;
+
+	}
+	
+	#kafel3{
+	    background-image: url(/wp-content/uploads/img/kafel3.jpg);
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;	
+	}
+	
+	#kafel4{
+		background-image: url("/wp-content/uploads/img/kafel4.jpg");
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		    background-position: 219px;
+
+	}
+	
+	
+	#kafel1 .kafel1-text{
 		background-color: #38352e;
-		height: 487px;
-		width: 446px;
+		min-height: 500px;
+
+	}
+	
+	#kafel2 .kafel2-text{
+		background-color: #c5a47e;
+		min-height: 500px;
+
+	}
+	
+	#kafel3 .kafel3-text{
+		background-color: #38352e;
+		min-height: 500px;
+
+	}
+	
+	#kafel4 .kafel4-text{
+		background-color: #c5a47e;
+		min-height: 500px;
+
+	}
+
+
+
+
+	
+	.kafel-tytul1{
+		font-family: UbuntuTitling-Bold;
+		font-size: 23px;
+		color: white;
+		margin-bottom: 0.9em;
+		padding: 88px 20px 0 55px;
+		text-transform: uppercase;
+		line-height: 38px;
+	}
+	
+	.kafel-tytul2{
+		font-family: Ubuntu-Bold;
+		font-size: 23px;
+		color: white;
+		margin-bottom: 0.9em;
+		padding: 88px 20px 0 55px;
+		text-transform: uppercase;
+		line-height: 38px;
+	}
+	
+	.kafel-opis1{
+		font-family: Poppins-Light;
+		font-size: 12px;
+		color: white;
+		padding: 0px 92px 0px 55px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	
+	.kafel-opis2{
+		font-family: Poppins-Light;
+		font-size: 12px;
+		color: white;
+		padding: 0px 92px 0px 55px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	
+	
+	.kafel-wrapper{
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	
+	
+	.offer-text{
+	position: absolute;
+    padding: 30px;
+    color: white;
+    font-family: Poppins-Regular;
+	font-size: 22px;
+	letter-spacing: 4px;
+	z-index: 1;
+	}
+	
+	
+	.offer-big-img{
+		margin: 0 0 0 0;
+		filter: brightness(65%);
+    box-shadow: 3px 3px 7px grey;
+	}
+	
+	.offer-big-img:hover{
+		    transition: 0.4s;
+		filter: brightness(90%);
+		box-shadow: 5px 5px 10px grey;
+	}
+	
+	.offer-img:hover{
+	    transition: 0.4s;
+	filter: brightness(90%);	
+box-shadow: 5px 5px 10px grey;	
+		
+	}
+	
+	
+	.offer-img{
+	/* margin: 28px 0 0 0px; */
+	filter: brightness(65%);	
+    box-shadow: 3px 3px 7px grey;
+		
+	}
+	
+	.offer{
+		padding-top: 30px;
+	}
+	
+	.button-zamow{
+	border-radius: 20px;
+    background-color: #c5a47e;
+    display: inline;
+    padding: 10px 25px;
+	font-family: Ubuntu-Bold;
+	text-align: center;
+	color:white;
+	margin-bottom:50px;
+	box-shadow: 6px 7px 18px #c5a47e;
+	}
+	
+	#zamow-text{
+		margin-top: 75px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	
+	@font-face {
+		font-family: Ubuntu-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Ubuntu-Bold.ttf);
+	}
+	
+	@font-face {
+		font-family: UbuntuTitling-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/UbuntuTitling-Bold.ttf);
+	}
+	
+	@font-face {
+		font-family: Poppins-Light;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Light.ttf);
+	}
+	
+	@font-face {
+		font-family: Poppins-Regular;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Regular.ttf);
+	}
+
+	@font-face {
+		font-family: Montserrat-Light;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Light.ttf);
 	}
 
 
