@@ -23,7 +23,11 @@ get_header(); ?>
 	</section><!-- #primary -->
 	<h2><?php the_field('testowy_tekst'); ?></h2>
 <?php	the_field('testowy_tekst');?>
+<link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.theme.default.css" type="text/css" media="all">
 	 	<script>
+	
+	
+	
 	
 	jQuery(document).ready(function(){
 
