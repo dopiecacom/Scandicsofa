@@ -3,24 +3,7 @@
 		* Template Name: Home
 	*/
 get_header(); ?>
-<section id="primary" class="content-area col-sm-12">
-	<main id="main" class="site-main" role="main">
-		
-		<?php
-			while ( have_posts() ) : the_post();
-			
-			get_template_part( 'template-parts/content', 'page' );
-			
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-			comments_template();
-			endif;
-			
-			endwhile; // End of the loop.
-		?>
-		
-	</main><!-- #main -->
-</section><!-- #primary -->
+
 
 
 
@@ -165,6 +148,24 @@ Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej p
 <p id="text1">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
 </div>
 </div>
+
+<div class="row">
+	<div class="col-lg-4 offset-md-1">
+		<h3>Kupując meble Scandicsofa</br> masz pewość że:</h3>
+		<p>Za zamówiony towar zapłacisz przy odbiorze,
+Dostajesz meble w 5 dni roboczych od zamówienia
+Dostarczymy meble pod wskazany adres i wniesiemy niezależnie od piętra,
+Odpakujemy i okażemy w celu zagwarantowania Twojego bezpieczeństwa,
+Wszystkie opakowania wyniesiemy, abyś Ty mógł wygodnie rozsiąść się na nowej kanapie.</p>
+	</div>
+		<div class="col-lg-6">
+		<img src="/wp-content/uploads/img/owners.jpg"/>
+	</div>
+	
+	
+	
+</div>
+
 </div>
 
 
