@@ -24,23 +24,15 @@
 <?php wp_head(); ?>
 
 	 <script src="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/owl.carousel.js" type="text/javascript"></script>
-	 
+	 <link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.theme.default.css" type="text/css" media="all">
 
 	 
 	 
 </head>
 
 <body <?php body_class(); ?>>
-	                <div class="navbar-brand">
-                    <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
-                        <a href="<?php echo esc_url( home_url( '/' )); ?>">
-                            <img src="<?php echo esc_url(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
-                        </a>
-                    <?php else : ?>
-                        <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
-                    <?php endif; ?>
 
-                </div>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
@@ -94,6 +86,82 @@
             </div>
         </div>
     <?php endif; ?>
+	
+	<script>
+		
+	
+	
+	
+	jQuery(document).ready(function(){
+		
+		
+		jQuery('.owl-carousel').owlCarousel({
+			loop:true,
+			items:1,
+			margin:10,
+			
+			
+		})
+		
+	});
+	
+</script>
+
+
+
+<div class="">
+	
+<div class="baner-wrapper">
+	<div class="container">
+	<div class ="logo">
+	<img src="http://scandicsofa.devintle.pl/wp-content/uploads/img/scandicsofalogo.png"/>
+	</div>
+	</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-4">
+		
+		<div class = "baner-modal">
+		<div class="container">
+
+	<div class="row">
+
+		
+			<div class="col-md-11 offset-md-1">
+		<h1>Beztroska, komfort </br> i... meble bez plam</h1>
+		<p>Czytaj dalej i ciesz się czystym wnętrzem</p>
+		
+		<div class ="button-read">
+		CZYTAJ WIECEJ
+		</div>
+		</div>
+		
+		
+		</div>
+		</div>
+			
+			
+			
+		</div>
+		
+		
+
+		
+		
+			<div class="owl-carousel owl-theme">
+				
+				<div class="item"><img src="<?php the_field('testowy_tekst');?>"/></div>
+				
+				
+				<div class="item"><img src="<?php the_field('testowy_tekst');?>"/></div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+	
 	<div id="content" class="site-content">
 		<div class="container">
 			<div class="row">
