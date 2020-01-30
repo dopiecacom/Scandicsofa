@@ -126,6 +126,16 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 
 
 
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
+<p id="wybieraj-text">WYBIERAJ DO WOLI<span id="sposrod-text"> SPOŚRÓD</span></p>
+</div>
+</div>
+</div>
+
+
+
 
 <div class="container">
 <div class="row">
