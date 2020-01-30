@@ -1138,7 +1138,8 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.t
 #ownerzy h3{
 	
     font-family: Exo2-Bold;
-
+font-size:22px;
+margin-bottom: 35px;
 }
 
 #ownerzy p{
@@ -1146,7 +1147,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.t
 
     font-family: Montserrat-Light;
     font-size: 13px;
-    line-height: 2;
+    line-height: 1.5;
 
 
 }
@@ -1399,6 +1400,7 @@ box-shadow: 5px 5px 10px grey;
 	#jak-opis{
 		font-family: Montserrat-Light;
 		font-size: 13px;
+		line-height: 1.5;
 	}
 
 	.film{
