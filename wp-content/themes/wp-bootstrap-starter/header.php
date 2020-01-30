@@ -24,7 +24,8 @@
 <?php wp_head(); ?>
 
 	 <script src="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/owl.carousel.js" type="text/javascript"></script>
-	 
+	 <link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.theme.default.css" type="text/css" media="all">
 
 	 
 	 
@@ -94,6 +95,41 @@
             </div>
         </div>
     <?php endif; ?>
+	
+	<script>
+		
+	
+	
+	
+	jQuery(document).ready(function(){
+		
+		
+		jQuery('.owl-carousel').owlCarousel({
+			loop:true,
+			items:1,
+			margin:10,
+			
+			
+		})
+		
+	});
+	
+</script>
+<div class="container-fluid">
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-4">
+			<div class="owl-carousel owl-theme">
+				
+				<div class="item"><img src="<?php the_field('testowy_tekst');?>"/></div>
+				<div class="item"><img src="<?php the_field('testowy_tekst');?>"/></div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	
 	<div id="content" class="site-content">
 		<div class="container">
 			<div class="row">
