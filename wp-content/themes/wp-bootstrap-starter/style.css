@@ -286,7 +286,7 @@ table {
 --------------------------------------------------------------*/
 header#masthead {
   margin-bottom: 0;
-  background-color: #563d7c ;
+  background-color: #fff ;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
  
 }
@@ -364,7 +364,7 @@ a.page-scroller {
 }
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
-  color: #cdbfe3;
+  color: #000;
 padding-top:50px;
 padding-bottom:35px;
 padding-left: 75px;
@@ -1047,6 +1047,9 @@ body:not(.theme-preset-active) footer#colophon {
 /* ############################################### */
 /* ############################################### */
 
+.logo img{
+	height:25px;
+}
 .owl-theme .owl-dots {
     text-align: right!important;
 }
@@ -1054,12 +1057,73 @@ body:not(.theme-preset-active) footer#colophon {
 
 
 
+.baner-wrapper{
+	
+	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
+	      padding-top: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px!important;
+    height: 20px!important;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: transparent!important;
+    border: 1px solid white!important;
+}
 
 
 
+.baner-modal{
+position: absolute;
+    top: 46px;
+    left: -425px;
+    height: 450px;
+    width: 811px;
+       background-color: rgba(212, 174, 131, 0.6);
+    z-index: 1000;
+
+}
 
 
+.baner-modal h1{
+	    font-size: 70px;
 
+	    margin-top: 79px;
+		    color: white;
+
+}
+
+.baner-modal p{
+	font-size:20px;
+	    color: white;
+
+}
+
+
+.baner-modal .button-read{
+	border-radius:20px;
+	background-color: white;
+    display: inline;
+	    padding: 10px 40px;
+		    font-weight: 600;
+}
+
+.spacer{
+	margin-left:100px;
+	
+}
+
+
+header#masthead {
+
+    box-shadow: none;
+}
 
 
 	#footer-logo{
