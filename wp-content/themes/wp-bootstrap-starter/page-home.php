@@ -3,24 +3,7 @@
 		* Template Name: Home
 	*/
 get_header(); ?>
-<section id="primary" class="content-area col-sm-12">
-	<main id="main" class="site-main" role="main">
-		
-		<?php
-			while ( have_posts() ) : the_post();
-			
-			get_template_part( 'template-parts/content', 'page' );
-			
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-			comments_template();
-			endif;
-			
-			endwhile; // End of the loop.
-		?>
-		
-	</main><!-- #main -->
-</section><!-- #primary -->
+
 
 
 
@@ -121,6 +104,81 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 </div>
 
 
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
+<p id="text1">SPRAWDŹ JAK ŁATWO ZMYĆ PLAMKĘ<span id="text2"> Z TKANINY FIBREGUARD</span></p>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
+<iframe class="film" width="560" height="315" src="https://www.youtube.com/embed/qf2WFezLjVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 offset-lg-1">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcM8wEDNaN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="col-lg-4">
+<p id="jak-tytul">Jak to zrobiliśmy?</p>
+<p id="jak-opis">Wieloletnie badania inżynierów tekstylnych pozwoliły stworzyć technologię Stain FreeGuard. 
+Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej pory wydawały się niemożliwe do usunięcia.</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
+<p id="text1">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
+</div>
+</div>
+	<div id="ownerzy">
+<div class="row">
+	<div class="col-lg-4 offset-md-1">
+
+		<h3>Kupując meble Scandicsofa</br> masz pewość że:</h3>
+		<p>Za zamówiony towar zapłacisz przy odbiorze,
+Dostajesz meble w 5 dni roboczych od zamówienia
+Dostarczymy meble pod wskazany adres i wniesiemy niezależnie od piętra,
+Odpakujemy i okażemy w celu zagwarantowania Twojego bezpieczeństwa,
+Wszystkie opakowania wyniesiemy, abyś Ty mógł wygodnie rozsiąść się na nowej kanapie.</p>
+	</div>
+		<div class="col-lg-6">
+		<img src="/wp-content/uploads/img/owners.jpg"/>
+	</div>
+	
+	
+</div>	
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -129,7 +187,7 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
-<p id="wybieraj-text">WYBIERAJ DO WOLI<span id="sposrod-text"> SPOŚRÓD</span></p>
+<p id="text1">WYBIERAJ DO WOLI<span id="text2"> SPOŚRÓD</span></p>
 </div>
 </div>
 </div>
@@ -201,9 +259,11 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="col-lg-10 offset-lg-1">
 <p id="zamow-text">Zamów bezpłatny próbnik tkanin</p>
 <div class="d-flex justify-content-center">
+<a href="https://scandicsofa.pl/pl/p/BEZPLATNY-PROBNIK/91" class="button-zamow-link">
 <div class="button-zamow">
 		ZAMÓW &rarr;</i>
 </div>
+</a>
 </div>
 
 </div>

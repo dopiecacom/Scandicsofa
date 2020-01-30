@@ -1134,6 +1134,26 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.t
 	COLOR:#e5ceb5;
 
 }
+
+#ownerzy h3{
+	
+    font-family: Exo2-Bold;
+font-size:22px;
+margin-bottom: 35px;
+}
+
+#ownerzy p{
+	
+
+    font-family: Montserrat-Light;
+    font-size: 13px;
+    line-height: 1.5;
+
+
+}
+
+
+
 header#masthead {
 
     box-shadow: none;
@@ -1339,6 +1359,10 @@ box-shadow: 5px 5px 10px grey;
 	transition: 0.4s;
 	}
 	
+	.button-zamow-link:hover{
+		  text-decoration: none;
+	}
+	
 	#zamow-text{
 		margin-top: 75px;
 		font-family: Ubuntu-Bold;
@@ -1346,7 +1370,7 @@ box-shadow: 5px 5px 10px grey;
 		text-align: center;
 	}
 	
-	#wybieraj-text{
+	#text1{
 		margin-top: 75px;
 		    padding-bottom: 50px;
 		font-family: Ubuntu-Bold;
@@ -1357,7 +1381,7 @@ box-shadow: 5px 5px 10px grey;
 		color: #3e3e3e;
 	}
 	
-	#sposrod-text{
+	#text2{
 		margin-top: 75px;
 		font-family: Ubuntu-Bold;
 		font-size: 22px;
@@ -1365,6 +1389,27 @@ box-shadow: 5px 5px 10px grey;
 		margin-bottom: 50px;
 		letter-spacing: 4px;
 		color: #c5a47e;
+	}
+	
+	#jak-tytul{
+		font-size:22px;
+		font-family: Exo2-Bold;
+		margin-top: 20px;
+	}
+	
+	#jak-opis{
+		font-family: Montserrat-Light;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	.film{
+		margin-bottom:75px;
+	}
+	
+	
+	#menu-menu{
+		letter-spacing: 1px;
 	}
 	
 	
@@ -1393,6 +1438,12 @@ box-shadow: 5px 5px 10px grey;
 		font-family: Montserrat-Light;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Light.ttf);
 	}
+	
+	@font-face {
+		font-family: Exo2-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Exo2-Bold.ttf);
+	}
+
 
 
 
