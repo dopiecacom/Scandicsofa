@@ -24,19 +24,26 @@ get_header(); ?>
 
 
 
-
-})
-});
+<div class="kafel-wrapper">
 <div class="container">
-Nie martw się bałaganem, wybierz meble obite łatwymi do czyszczenia tkaninami i ciesz się beztroskim użytkowaniem.
-<div id="kafel1-text">
-<div class="row">
-<div class="col-md-10 offset-md-1">
-<div id="kafel1">
-<p>Twoje dzieci uwielbiają jeść śniadanie na sofie? My też :) #1</p>
-<p>Sofy i fotele obite tkaniną FibeGuard pozwolą Ci zachować spokój ducha. Zagwarantuj sobie porządek w salonie każdego dnia.
-Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkaniny FibreGuard zmienią Twoje podejście do sprzątania.</p>
-Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku, owoców czy czekolady na białej sofie.
+	<div class="row">
+		<div class="col-lg-10 offset-lg-1">
+			<div id="kafel1">	
+				<div class="container">
+				<div class="row">
+				<div class="col-lg-6 offset-lg-6">
+				<div class="kafel1-text">
+<p class="kafel-tytul1">Twoje dzieci uwielbiają jeść śniadanie na sofie? My też :) #1</p>
+<p class="kafel-opis1">Sofy i fotele obite tkaniną FibeGuard pozwolą Ci zachować spokój ducha. Zagwarantuj sobie porządek w salonie każdego dnia.
+Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkaniny FibreGuard zmienią Twoje podejście do sprzątania.
+Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku, owoców czy czekolady na białej sofie.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 </div>
 
