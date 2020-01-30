@@ -122,5 +122,85 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 
 
 
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1">
+<p class="offer-text">NAROŻNIKI</p>
+<img class="offer-big-img" src="/wp-content/uploads/img/sofa/sofa1.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer">
+<p class="offer-text">ŁÓŻKA</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa2.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer">
+<p class="offer-text">SOFY</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa3.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer">
+<p class="offer-text">KRZESŁA</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa4.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer"">
+<p class="offer-text">PUFY</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa5.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer">
+<p class="offer-text">FOTELE</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa6.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer">
+<p class="offer-text">PODUSZKI</p>
+<img class="offer-img" src="/wp-content/uploads/img/sofa/sofa7.jpg" alt="Smiley face">
+</div>
+</div>
+
+
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1">
+<p>Zamów bezpłatny próbnik tkanin</p>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 	get_footer();

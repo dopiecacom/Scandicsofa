@@ -18,18 +18,18 @@
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
 		<div class="container">
 			<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-10 offset-lg-1">
 			<img src="/wp-content/uploads/img/scandicsofalogo.png" alt="ScandicSofa" id="footer-logo">
 			</div>
 			</div>
 			
 			<div class="row">
-			<div class="col-lg-4">
+			<div class="col-lg-3 offset-lg-1">
 			<div id="footer-leftcol">
 			<p>ul. Akacjowa 1, 62-025</p>
 			<p>Kostrzyn Wielkopolski</p>
 			<p>Tel: +48 22 113 48 00</p>
-			<p>Email: kontakt@scandicsofa.com</p>
+			<p>Email: <a href="mailto:kontakt@scandicsofa.com">kontakt@scandicsofa.com</a></p>
 			<p><a target="_blank" href="https://www.facebook.com/Scandicsofa-983915751742075/">Facebook</a></p>
 			<p><a target="_blank" href="https://pl.pinterest.com/scandicsofa0372/?autologin=true">Pinterest</a></p>
 			<p><a target="_blank" href="https://www.instagram.com/scandicsofa/">Instagram</a></p>
@@ -37,7 +37,7 @@
 			</div>
 			</div>
 			
-			<div class="col-lg-8">
+			<div class="col-lg-7">
 			<div id="footer-rightcol">
 			<p>Dlaczego zdecydowaliśmy się na meble skandynawskie?</p>
 			<p>Bo już u podstaw tego stylu leży przywiązanie do wysokiej jakości i trwałości produktów a design skandynawski wspaniale dopasowuje się do niemal każdej aranżacji wnętrz.</p>
