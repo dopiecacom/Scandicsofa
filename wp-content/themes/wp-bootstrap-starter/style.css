@@ -1374,6 +1374,7 @@ box-shadow: 5px 5px 10px grey;
 	#jak-tytul{
 		font-size:22px;
 		font-family: Exo2-Bold;
+		margin-top: 20px;
 	}
 	
 	#jak-opis{
@@ -1381,9 +1382,9 @@ box-shadow: 5px 5px 10px grey;
 		font-size: 13px;
 	}
 
-	/* #jak{ */
-		/* padding-top:75px; */
-	/* } */
+	.film{
+		margin-bottom:75px;
+	}
 	
 	
 	
