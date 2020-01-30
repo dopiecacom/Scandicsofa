@@ -1280,23 +1280,27 @@ header#masthead {
 	.offer-big-img{
 		margin: 0 0 0 0;
 		filter: brightness(65%);
+		box-shadow: 5px 5px 13px grey;
 	}
 	
 	.offer-big-img:hover{
 		    transition: 0.4s;
 		filter: brightness(90%);
+		box-shadow: 5px 5px 25px grey;
 	}
 	
 	.offer-img:hover{
 	    transition: 0.4s;
-	filter: brightness(90%);		
+	filter: brightness(90%);	
+box-shadow: 5px 5px 25px grey;	
 		
 	}
 	
 	
 	.offer-img{
 	/* margin: 28px 0 0 0px; */
-	filter: brightness(65%);		
+	filter: brightness(65%);	
+box-shadow: 5px 5px 13px grey;	
 		
 	}
 	
