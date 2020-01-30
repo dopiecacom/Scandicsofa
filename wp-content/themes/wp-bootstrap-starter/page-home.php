@@ -122,5 +122,73 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 
 
 
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1">
+<p class="offer-text">NAROŻNIKI</p>
+<img class="offer-big-img" src="/wp-content/uploads/img/1.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer"">
+<p class="offer-text">ŁÓŻKA</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer"">
+<p class="offer-text">SOFY</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer"">
+<p class="offer-text">KRZESŁA</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer"">
+<p class="offer-text">PUFY</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-5 offset-lg-1 offer"">
+<p class="offer-text">FOTELE</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+<div class="col-lg-5 offer"">
+<p class="offer-text">PODUSZKI</p>
+<img class="offer-img" src="/wp-content/uploads/img/2.jpg" alt="Smiley face">
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 	get_footer();
