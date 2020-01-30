@@ -23,6 +23,7 @@ get_header(); ?>
 	</section><!-- #primary -->
 	<h2><?php the_field('testowy_tekst'); ?></h2>
 <?php	the_field('testowy_tekst');?>
+<link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.carousel.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-bootstrap-starter-bootstrap-css-css" href="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/assets/owl.theme.default.css" type="text/css" media="all">
 	 	<script>
 	
@@ -36,7 +37,7 @@ jQuery('.owl-carousel').owlCarousel({
     loop:true,
 	items:1,
     margin:10,
-    nav:true,
+    nav:true
 
 })
 
