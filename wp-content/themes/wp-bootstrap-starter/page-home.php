@@ -123,12 +123,37 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 
 <div class="container">
 <div class="row">
-<div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
 <p id="text1">SPRAWDŹ JAK ŁATWO ZMYĆ PLAMKĘ<span id="text2"> Z TKANINY FIBREGUARD</span></p>
 </div>
 </div>
 </div>
 
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qf2WFezLjVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 offset-lg-1">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcM8wEDNaN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="col-lg-4">
+<p id="jak-tytul">Jak to zrobiliśmy?</p>
+<p id="jak-opis">Wieloletnie badania inżynierów tekstylnych pozwoliły stworzyć technologię Stain FreeGuard. 
+Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej pory wydawały się niemożliwe do usunięcia.</p>
+</div>
+
+</div>
+</div>
 
 
 
@@ -231,9 +256,11 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="col-lg-10 offset-lg-1">
 <p id="zamow-text">Zamów bezpłatny próbnik tkanin</p>
 <div class="d-flex justify-content-center">
+<a href="https://scandicsofa.pl/pl/p/BEZPLATNY-PROBNIK/91" class="button-zamow-link">
 <div class="button-zamow">
 		ZAMÓW &rarr;</i>
 </div>
+</a>
 </div>
 
 </div>

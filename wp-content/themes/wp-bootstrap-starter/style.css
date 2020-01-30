@@ -1339,6 +1339,10 @@ box-shadow: 5px 5px 10px grey;
 	transition: 0.4s;
 	}
 	
+	.button-zamow-link:hover{
+		  text-decoration: none;
+	}
+	
 	#zamow-text{
 		margin-top: 75px;
 		font-family: Ubuntu-Bold;
@@ -1367,6 +1371,21 @@ box-shadow: 5px 5px 10px grey;
 		color: #c5a47e;
 	}
 	
+	#jak-tytul{
+		font-size:22px;
+		font-family: Exo2-Bold;
+	}
+	
+	#jak-opis{
+		font-family: Montserrat-Light;
+		font-size: 13px;
+	}
+
+	/* #jak{ */
+		/* padding-top:75px; */
+	/* } */
+	
+	
 	
 	
 	@font-face {
@@ -1393,6 +1412,12 @@ box-shadow: 5px 5px 10px grey;
 		font-family: Montserrat-Light;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Light.ttf);
 	}
+	
+	@font-face {
+		font-family: Exo2-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Exo2-Bold.ttf);
+	}
+
 
 
 
