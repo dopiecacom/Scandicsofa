@@ -1082,7 +1082,7 @@ body:not(.theme-preset-active) footer#colophon {
 .baner-modal{
 position: absolute;
     top: 46px;
-    left: -425px;
+ left: -365px;
     height: 450px;
     width: 811px;
        background-color: rgba(212, 174, 131, 0.6);
