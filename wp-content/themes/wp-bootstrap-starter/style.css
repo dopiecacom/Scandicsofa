@@ -1047,7 +1047,7 @@ body:not(.theme-preset-active) footer#colophon {
 /* ############################################### */
 /* ############################################### */
 
-..logo img{
+.logo img{
 	height:25px;
 }
 .owl-theme .owl-dots {
