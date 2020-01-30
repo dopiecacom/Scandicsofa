@@ -16,7 +16,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	 
+	 
+	
 <?php wp_head(); ?>
+
+	 <script src="http://scandicsofa.devintle.pl/wp-content/themes/wp-bootstrap-starter/assets/owl/owl.carousel.js" type="text/javascript"></script>
+	 
+
+	 
+	 
 </head>
 
 <body <?php body_class(); ?>>
