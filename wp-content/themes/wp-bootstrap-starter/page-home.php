@@ -148,9 +148,10 @@ Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej p
 <p id="text1">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
 </div>
 </div>
-
+	<div id="ownerzy">
 <div class="row">
 	<div class="col-lg-4 offset-md-1">
+
 		<h3>Kupując meble Scandicsofa</br> masz pewość że:</h3>
 		<p>Za zamówiony towar zapłacisz przy odbiorze,
 Dostajesz meble w 5 dni roboczych od zamówienia
@@ -163,7 +164,8 @@ Wszystkie opakowania wyniesiemy, abyś Ty mógł wygodnie rozsiąść się na no
 	</div>
 	
 	
-	
+</div>	
+
 </div>
 
 </div>

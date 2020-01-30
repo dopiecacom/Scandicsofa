@@ -1134,6 +1134,25 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.t
 	COLOR:#e5ceb5;
 
 }
+
+#ownerzy h3{
+	
+    font-family: Exo2-Bold;
+
+}
+
+#ownerzy p{
+	
+
+    font-family: Montserrat-Light;
+    font-size: 13px;
+    line-height: 2;
+
+
+}
+
+
+
 header#masthead {
 
     box-shadow: none;
