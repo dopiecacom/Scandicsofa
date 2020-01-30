@@ -130,41 +130,55 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1">
+<a href="https://scandicsofa.pl/pl/c/NAROZNIKI/22">
 <p class="offer-text">NAROŻNIKI</p>
 <img class="offer-big-img" src="/wp-content/uploads/img/sofa/sofa1.jpg" alt="Smiley face">
+</a>
 </div>
 </div>
 
 <div class="row">
 <div class="col-lg-5 offset-lg-1 offer">
+<a href="https://scandicsofa.pl/pl/c/LOZKA/18">
 <p class="offer-text">ŁÓŻKA</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa2.jpg" alt="Smiley face">
+</a>
 </div>
 <div class="col-lg-5 offer">
+<a href="https://scandicsofa.pl/pl/c/SOFY/13">
 <p class="offer-text">SOFY</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa3.jpg" alt="Smiley face">
+</a>
 </div>
 </div>
 
 <div class="row">
 <div class="col-lg-5 offset-lg-1 offer">
+<a href="https://scandicsofa.pl/pl/c/KRZESLA/53">
 <p class="offer-text">KRZESŁA</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa4.jpg" alt="Smiley face">
+</a>
 </div>
 <div class="col-lg-5 offer"">
+<a href="https://scandicsofa.pl/pl/c/PUFY/39">
 <p class="offer-text">PUFY</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa5.jpg" alt="Smiley face">
+</a>
 </div>
 </div>
 
 <div class="row">
 <div class="col-lg-5 offset-lg-1 offer">
+<a href="https://scandicsofa.pl/pl/c/FOTELE/14">
 <p class="offer-text">FOTELE</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa6.jpg" alt="Smiley face">
+</a>
 </div>
 <div class="col-lg-5 offer">
+<a href="https://scandicsofa.pl/pl/c/PODUSZKI/41">
 <p class="offer-text">PODUSZKI</p>
 <img class="offer-img" src="/wp-content/uploads/img/sofa/sofa7.jpg" alt="Smiley face">
+</a>
 </div>
 </div>
 
@@ -175,7 +189,12 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1">
-<p>Zamów bezpłatny próbnik tkanin</p>
+<p id="zamow-text">Zamów bezpłatny próbnik tkanin</p>
+<div class="d-flex justify-content-center">
+<div class="button-zamow">
+		ZAMÓW &rarr;</i>
+</div>
+</div>
 
 </div>
 </div>

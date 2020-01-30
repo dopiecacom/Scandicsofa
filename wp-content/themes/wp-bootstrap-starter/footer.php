@@ -48,7 +48,7 @@
 			
 			<div class="row">
 			<div class="col-lg-12">
-			<p id="footer-low">Copyright &copy; by <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>  Poland Sp. z o. o. <?php echo date('Y'); ?>. All rights reserved. Projekt i wdrożenie INTLE </p>
+			<p id="footer-low">Copyright &copy; by <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>  Poland Sp. z o. o. <?php echo date('Y'); ?>. All rights reserved. Projekt i wdrożenie <a href="ingle.pl">INTLE</a> </p>
             </div><!-- close .site-info -->
 		  </div>
 		</div>

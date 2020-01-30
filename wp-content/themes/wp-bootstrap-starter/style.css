@@ -1141,6 +1141,7 @@ header#masthead {
 		color: black;
 		margin-bottom: 0em;
 		font-family: Poppins-Light;
+		line-height: 17px;
 	}
 	
 	#footer-rightcol p {
@@ -1148,12 +1149,13 @@ header#masthead {
 		color: black;
 		font-family: Poppins-Light;
 		text-align: justify;
+		line-height: 17px;
 	}
 	
 	#footer-low{
 		margin-top: 20px;
-		font-weight: 650;
 		text-align: center;
+		font-family: Montserrat-Light;
 	}
 	
 	
@@ -1277,7 +1279,17 @@ header#masthead {
 	
 	.offer-big-img{
 		margin: 0 0 0 0;
-		filter: brightness(80%);
+		filter: brightness(65%);
+	}
+	
+	.offer-big-img:hover{
+		    transition: 0.4s;
+		filter: brightness(90%);
+	}
+	
+	.offer-img:hover{
+	    transition: 0.4s;
+	filter: brightness(90%);		
 		
 	}
 	
@@ -1290,6 +1302,25 @@ header#masthead {
 	
 	.offer{
 		padding-top: 30px;
+	}
+	
+	.button-zamow{
+	border-radius: 20px;
+    background-color: #c5a47e;
+    display: inline;
+    padding: 10px 25px;
+	font-family: Ubuntu-Bold;
+	text-align: center;
+	color:white;
+	margin-bottom:50px;
+	box-shadow: 6px 7px 18px #c5a47e;
+	}
+	
+	#zamow-text{
+		margin-top: 75px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
 	}
 	
 	
@@ -1313,6 +1344,10 @@ header#masthead {
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Regular.ttf);
 	}
 
+	@font-face {
+		font-family: Montserrat-Light;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Light.ttf);
+	}
 
 
 
