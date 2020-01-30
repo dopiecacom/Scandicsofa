@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="row">
 			<div class="col-lg-12">
-			<img src="wp-content/themes/wp-bootstrap-starter/img/scandicsofalogo.png" alt="ScandicSofa" id="footer-logo">
+			<img src="/wp-content/uploads/img/scandicsofalogo.png" alt="ScandicSofa" id="footer-logo">
 			</div>
 			</div>
 			

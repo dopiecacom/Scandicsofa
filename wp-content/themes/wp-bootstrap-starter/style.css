@@ -20,7 +20,7 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 # Navigation
 	## Links
 	## Menus
-# Accessibility
+	# Accessibility
 # Alignments
 # Clearings
 # Widgets
@@ -286,9 +286,9 @@ table {
 --------------------------------------------------------------*/
 header#masthead {
   margin-bottom: 0;
-  background-color: #563d7c ;
+  background-color: #fff ;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
-  padding: .74rem 1rem;
+ 
 }
 
 .navbar-brand > a {
@@ -364,8 +364,10 @@ a.page-scroller {
 }
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
-  color: #cdbfe3;
-  padding: 0.5rem;
+  color: #000;
+padding-top:50px;
+padding-bottom:35px;
+padding-left: 75px;
   font-weight: 500;
   font-size: 0.875rem;
 }
@@ -1045,17 +1047,83 @@ body:not(.theme-preset-active) footer#colophon {
 /* ############################################### */
 /* ############################################### */
 
+.logo img{
+	height:25px;
+}
+.owl-theme .owl-dots {
+    text-align: right!important;
+}
 
 
 
 
+.baner-wrapper{
+	
+	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
+	      padding-top: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px!important;
+    height: 20px!important;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: transparent!important;
+    border: 1px solid white!important;
+}
 
 
 
+.baner-modal{
+position: absolute;
+    top: 46px;
+    left: -425px;
+    height: 450px;
+    width: 811px;
+       background-color: rgba(212, 174, 131, 0.6);
+    z-index: 1000;
+
+}
 
 
+.baner-modal h1{
+	    font-size: 70px;
+
+	    margin-top: 79px;
+		    color: white;
+
+}
+
+.baner-modal p{
+	font-size:20px;
+	    color: white;
+
+}
 
 
+.baner-modal .button-read{
+	border-radius:20px;
+	background-color: white;
+    display: inline;
+	    padding: 10px 40px;
+		    font-weight: 600;
+}
+
+.spacer{
+	margin-left:100px;
+	
+}
+
+
+header#masthead {
+
+    box-shadow: none;
+}
 
 
 	#footer-logo{
@@ -1086,6 +1154,128 @@ body:not(.theme-preset-active) footer#colophon {
 	}
 	
 	
+	
+	#kafel1{
+		background-image: url("/wp-content/uploads/img/kafel1.jpg");
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	#kafel2{
+		background-image: url("/wp-content/uploads/img/kafel2.jpg");
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		    background-position: 219px;
+
+	}
+	
+	#kafel3{
+	    background-image: url(/wp-content/uploads/img/kafel3.jpg);
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;	
+	}
+	
+	#kafel4{
+		background-image: url("/wp-content/uploads/img/kafel4.jpg");
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		    background-position: 219px;
+
+	}
+	
+	
+	#kafel1 .kafel1-text{
+		background-color: #38352e;
+		min-height: 500px;
+
+	}
+	
+	#kafel2 .kafel2-text{
+		background-color: #c5a47e;
+		min-height: 500px;
+
+	}
+	
+	#kafel3 .kafel3-text{
+		background-color: #38352e;
+		min-height: 500px;
+
+	}
+	
+	#kafel4 .kafel4-text{
+		background-color: #c5a47e;
+		min-height: 500px;
+
+	}
+
+
+
+
+	
+	.kafel-tytul1{
+		font-family: UbuntuTitling-Bold;
+		font-size: 23px;
+		color: white;
+		margin-bottom: 0.9em;
+		padding: 88px 20px 0 55px;
+		text-transform: uppercase;
+		line-height: 38px;
+	}
+	
+	.kafel-tytul2{
+		font-family: Ubuntu-Bold;
+		font-size: 23px;
+		color: white;
+		margin-bottom: 0.9em;
+		padding: 88px 20px 0 55px;
+		text-transform: uppercase;
+		line-height: 38px;
+	}
+	
+	.kafel-opis1{
+		font-family: Poppins-Light;
+		font-size: 12px;
+		color: white;
+		padding: 0px 92px 0px 55px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	
+	.kafel-opis2{
+		font-family: Poppins-Light;
+		font-size: 12px;
+		color: white;
+		padding: 0px 92px 0px 55px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	
+	
+	.kafel-wrapper{
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	
+	
+	@font-face {
+		font-family: Ubuntu-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Ubuntu-Bold.ttf);
+	}
+	
+	@font-face {
+		font-family: UbuntuTitling-Bold;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/UbuntuTitling-Bold.ttf);
+	}
+	
+	@font-face {
+		font-family: Poppins-Light;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Light.ttf);
+	}
+
 
 
 
