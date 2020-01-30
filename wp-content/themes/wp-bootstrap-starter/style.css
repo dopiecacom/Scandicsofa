@@ -1060,7 +1060,7 @@ body:not(.theme-preset-active) footer#colophon {
 .baner-wrapper{
 	
 	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
-	      padding-top: 0px;
+	      padding-top: 10px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -1082,7 +1082,7 @@ body:not(.theme-preset-active) footer#colophon {
 .baner-modal{
 position: absolute;
     top: 46px;
- left: -365px;
+    left: -425px;
     height: 450px;
     width: 811px;
        background-color: rgba(212, 174, 131, 0.6);
@@ -1120,12 +1120,6 @@ position: absolute;
 }
 
 
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
-	COLOR:#e5ceb5;
-
-}
-
-
 header#masthead {
 
     box-shadow: none;
@@ -1146,11 +1140,14 @@ header#masthead {
 		letter-spacing: 0.7px;
 		color: black;
 		margin-bottom: 0em;
+		font-family: Poppins-Light;
 	}
 	
 	#footer-rightcol p {
 		font-weight: 650;
 		color: black;
+		font-family: Poppins-Light;
+		text-align: justify;
 	}
 	
 	#footer-low{
@@ -1267,6 +1264,35 @@ header#masthead {
 	}
 	
 	
+	.offer-text{
+	position: absolute;
+    padding: 30px;
+    color: white;
+    font-family: Poppins-Regular;
+	font-size: 22px;
+	letter-spacing: 4px;
+	z-index: 1;
+	}
+	
+	
+	.offer-big-img{
+		margin: 0 0 0 0;
+		filter: brightness(80%);
+		
+	}
+	
+	
+	.offer-img{
+	/* margin: 28px 0 0 0px; */
+	filter: brightness(65%);		
+		
+	}
+	
+	.offer{
+		padding-top: 30px;
+	}
+	
+	
 	@font-face {
 		font-family: Ubuntu-Bold;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Ubuntu-Bold.ttf);
@@ -1280,6 +1306,11 @@ header#masthead {
 	@font-face {
 		font-family: Poppins-Light;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Light.ttf);
+	}
+	
+	@font-face {
+		font-family: Poppins-Regular;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Regular.ttf);
 	}
 
 
