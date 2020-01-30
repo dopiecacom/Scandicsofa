@@ -121,6 +121,14 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 </div>
 
 
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
+<p id="text1">SPRAWDŹ JAK ŁATWO ZMYĆ PLAMKĘ<span id="text2"> Z TKANINY FIBREGUARD</span></p>
+</div>
+</div>
+</div>
+
 
 
 
@@ -129,7 +137,29 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
-<p id="wybieraj-text">WYBIERAJ DO WOLI<span id="sposrod-text"> SPOŚRÓD</span></p>
+<p id="text1">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 d-flex justify-content-center wrapper">
+<p id="text1">WYBIERAJ DO WOLI<span id="text2"> SPOŚRÓD</span></p>
 </div>
 </div>
 </div>

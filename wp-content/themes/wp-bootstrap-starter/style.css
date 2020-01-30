@@ -1346,7 +1346,7 @@ box-shadow: 5px 5px 10px grey;
 		text-align: center;
 	}
 	
-	#wybieraj-text{
+	#text1{
 		margin-top: 75px;
 		    padding-bottom: 50px;
 		font-family: Ubuntu-Bold;
@@ -1357,7 +1357,7 @@ box-shadow: 5px 5px 10px grey;
 		color: #3e3e3e;
 	}
 	
-	#sposrod-text{
+	#text2{
 		margin-top: 75px;
 		font-family: Ubuntu-Bold;
 		font-size: 22px;
