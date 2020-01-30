@@ -1120,6 +1120,12 @@ position: absolute;
 }
 
 
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
+	COLOR:#e5ceb5;
+
+}
+
+
 header#masthead {
 
     box-shadow: none;
