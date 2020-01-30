@@ -26,18 +26,19 @@ get_header(); ?>
 
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-10 offset-md-1">
-			<div id="kafel1">
-				
-				<div id="kafel1-text">
-					<p>Twoje dzieci uwielbiają jeść?</p>
-					<p>To bardzo dobrze, bo jedzenie jest niezbędne do prawidłowego rozrostu mięśni! TAK TRZYMAJ!</p>
-				</div>
-				
-			</div>
-		</div>
-	</div>
+Nie martw się bałaganem, wybierz meble obite łatwymi do czyszczenia tkaninami i ciesz się beztroskim użytkowaniem.
+<div id="kafel1-text">
+<div class="row">
+<div class="col-md-10 offset-md-1">
+<div id="kafel1">
+<p>Twoje dzieci uwielbiają jeść śniadanie na sofie? My też :) #1</p>
+<p>Sofy i fotele obite tkaniną FibeGuard pozwolą Ci zachować spokój ducha. Zagwarantuj sobie porządek w salonie każdego dnia.
+Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku, owoców czy czekolady na białej sofie.
+Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkaniny FibreGuard zmienią Twoje podejście do sprzątania.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 <?php
