@@ -1134,8 +1134,6 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.t
 	COLOR:#e5ceb5;
 
 }
-
-
 header#masthead {
 
     box-shadow: none;
@@ -1156,17 +1154,22 @@ header#masthead {
 		letter-spacing: 0.7px;
 		color: black;
 		margin-bottom: 0em;
+		font-family: Poppins-Light;
+		line-height: 17px;
 	}
 	
 	#footer-rightcol p {
 		font-weight: 650;
 		color: black;
+		font-family: Poppins-Light;
+		text-align: justify;
+		line-height: 17px;
 	}
 	
 	#footer-low{
 		margin-top: 20px;
-		font-weight: 650;
 		text-align: center;
+		font-family: Montserrat-Light;
 	}
 	
 	
@@ -1277,6 +1280,95 @@ header#masthead {
 	}
 	
 	
+	.offer-text{
+	position: absolute;
+    padding: 30px;
+    color: white;
+    font-family: Poppins-Regular;
+	font-size: 22px;
+	letter-spacing: 4px;
+	z-index: 1;
+	}
+	
+	
+	.offer-big-img{
+		filter: brightness(65%);
+    box-shadow: 3px 3px 7px grey;
+	}
+	
+	.offer-big-img:hover{
+		    transition: 0.4s;
+		filter: brightness(90%);
+		box-shadow: 5px 5px 10px grey;
+	}
+	
+	.offer-img:hover{
+	    transition: 0.4s;
+	filter: brightness(90%);	
+box-shadow: 5px 5px 10px grey;	
+		
+	}
+	
+	
+	.offer-img{
+	/* margin: 28px 0 0 0px; */
+	filter: brightness(65%);	
+    box-shadow: 3px 3px 7px grey;
+		
+	}
+	
+	.offer{
+		padding-top: 30px;
+	}
+	
+	.button-zamow{
+	border-radius: 20px;
+    background-color: #c5a47e;
+    display: inline;
+    padding: 10px 25px;
+	font-family: Ubuntu-Bold;
+	text-align: center;
+	color:white;
+	margin-bottom:50px;
+	box-shadow: 6px 7px 18px #c5a47e;
+	}
+	
+	.button-zamow:hover{
+		opacity:0.85;
+		box-shadow: 6px 7px 24px #c5a47e;
+	transition: 0.4s;
+	}
+	
+	#zamow-text{
+		margin-top: 75px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	#wybieraj-text{
+		margin-top: 75px;
+		    padding-bottom: 50px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 50px;
+		letter-spacing: 4px;
+		color: #3e3e3e;
+	}
+	
+	#sposrod-text{
+		margin-top: 75px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 50px;
+		letter-spacing: 4px;
+		color: #c5a47e;
+	}
+	
+	
+	
 	@font-face {
 		font-family: Ubuntu-Bold;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Ubuntu-Bold.ttf);
@@ -1291,7 +1383,16 @@ header#masthead {
 		font-family: Poppins-Light;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Light.ttf);
 	}
+	
+	@font-face {
+		font-family: Poppins-Regular;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Poppins-Regular.ttf);
+	}
 
+	@font-face {
+		font-family: Montserrat-Light;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Light.ttf);
+	}
 
 
 
