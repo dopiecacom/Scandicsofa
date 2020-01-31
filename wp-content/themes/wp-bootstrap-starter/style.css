@@ -1145,7 +1145,7 @@ margin-bottom: 35px;
 #ownerzy p{
 	
 
-    font-family: Montserrat-Light;
+    font-family: Montserrat-Medium;
     font-size: 13px;
     line-height: 1.5;
 
@@ -1220,9 +1220,9 @@ header#masthead {
 	#kafel4{
 		background-image: url("/wp-content/uploads/img/kafel4.jpg");
 		background-repeat: no-repeat;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		    background-position: 219px;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		background-position: 219px;
 
 	}
 	
@@ -1247,7 +1247,7 @@ header#masthead {
 	
 	#kafel4 .kafel4-text{
 		background-color: #c5a47e;
-		min-height: 500px;
+		min-height: 450px;
 
 	}
 
@@ -1256,11 +1256,11 @@ header#masthead {
 
 	
 	.kafel-tytul1{
-		font-family: UbuntuTitling-Bold;
+		font-family: Ubuntu-Bold;
 		font-size: 23px;
 		color: white;
 		margin-bottom: 0.9em;
-		padding: 88px 20px 0 55px;
+		padding: 60px 50px 0 55px;
 		text-transform: uppercase;
 		line-height: 38px;
 	}
@@ -1270,7 +1270,17 @@ header#masthead {
 		font-size: 23px;
 		color: white;
 		margin-bottom: 0.9em;
-		padding: 88px 20px 0 55px;
+		padding: 55px 60px 0 90px;
+		text-transform: uppercase;
+		line-height: 38px;
+	}
+	
+	.kafel-tytul4{
+		font-family: Ubuntu-Bold;
+		font-size: 23px;
+		color: white;
+		margin-bottom: 0.9em;
+		padding: 73px 70px 0 90px;
 		text-transform: uppercase;
 		line-height: 38px;
 	}
@@ -1288,6 +1298,15 @@ header#masthead {
 		font-family: Poppins-Light;
 		font-size: 12px;
 		color: white;
+		padding: 0px 92px 0px 90px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	
+	.kafel-opis3{
+		font-family: Poppins-Light;
+		font-size: 12px;
+		color: white;
 		padding: 0px 92px 0px 55px;
 		line-height: 20px;
 		margin-bottom: 0;
@@ -1297,6 +1316,20 @@ header#masthead {
 	.kafel-wrapper{
 		padding-bottom: 50px;
 		padding-top: 50px;
+	}
+	
+	.fibreguard-wrapper{
+	padding-top: 40px;
+    margin-top: 50px;
+    background-image: url(/wp-content/uploads/img/fibreguard.png);
+    background-repeat: no-repeat;
+    background-position: 75% 1%;
+	}
+	
+	.ownerzy-wrapper{
+		background-image: url("/wp-content/uploads/img/SCANCICSOFA.png");
+		background-repeat: no-repeat;
+		background-position: 33% 39%;
 	}
 	
 	
@@ -1376,7 +1409,7 @@ box-shadow: 5px 5px 10px grey;
 		font-family: Ubuntu-Bold;
 		font-size: 22px;
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 10px;
 		letter-spacing: 4px;
 		color: #3e3e3e;
 	}
@@ -1391,6 +1424,29 @@ box-shadow: 5px 5px 10px grey;
 		color: #c5a47e;
 	}
 	
+	#text-ownerzy{
+		margin-top: 90px;
+		    padding-bottom: 50px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 50px;
+		letter-spacing: 4px;
+		color: #3e3e3e;
+	}
+	
+	#text-fibreguard{
+		margin-top: 75px;
+		    padding-bottom: 50px;
+		font-family: Ubuntu-Bold;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 75px;
+		letter-spacing: 4px;
+		color: #3e3e3e;
+	}
+	
+	
 	#jak-tytul{
 		font-size:22px;
 		font-family: Exo2-Bold;
@@ -1398,13 +1454,13 @@ box-shadow: 5px 5px 10px grey;
 	}
 	
 	#jak-opis{
-		font-family: Montserrat-Light;
+		font-family: Montserrat-Medium;
 		font-size: 13px;
 		line-height: 1.5;
 	}
 
 	.film{
-		margin-bottom:75px;
+		margin-bottom:100px;
 	}
 	
 	
@@ -1440,6 +1496,11 @@ box-shadow: 5px 5px 10px grey;
 	}
 	
 	@font-face {
+		font-family: Montserrat-Medium;
+		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Montserrat-Medium.ttf);
+	}
+	
+	@font-face {
 		font-family: Exo2-Bold;
 		src: url(/wp-content/themes/wp-bootstrap-starter/inc/assets/fonts/Exo2-Bold.ttf);
 	}
@@ -1450,7 +1511,51 @@ box-shadow: 5px 5px 10px grey;
 
 
 
+@media screen and (max-width: 992px) {
+
+#kafel1 .kafel1-text {
+    margin-top: 190px;
+	margin-left: -15px;
+    margin-right: -15px;
+
+}
+#kafel2 .kafel2-text {
+    margin-top: 270px;
+
+}
+#kafel3 .kafel3-text {
+    margin-top: 190px;
+	margin-left: -15px;
+    margin-right: -15px;
+
+}
+#kafel4 .kafel4-text {
+    margin-top: 250px;
+
+}
+
+#kafel1 {
+	padding: 0;
+}
+
+#kafel2 {
+	padding: 0;
+    background-position: 0px 0px;
+}
+
+#kafel3 {
+	padding: 0;
+	background-position: 0px -128px;
+}
+
+#kafel4 {
+	padding: 0;
+	background-position: 0;
+	background-position: -176px -42%;
+}
+}
 
 
 
+}
 

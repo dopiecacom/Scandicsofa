@@ -17,9 +17,10 @@ get_header(); ?>
 				<div class="col-lg-6 offset-lg-6">
 				<div class="kafel1-text">
 <p class="kafel-tytul1">Twoje dzieci uwielbiają jeść śniadanie na sofie? My też :) #1</p>
-<p class="kafel-opis1">Sofy i fotele obite tkaniną FibeGuard pozwolą Ci zachować spokój ducha. Zagwarantuj sobie porządek w salonie każdego dnia.
-Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkaniny FibreGuard zmienią Twoje podejście do sprzątania.
-Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku, owoców czy czekolady na białej sofie.</p>
+<p class="kafel-opis1">Sofy i fotele obite tkaniną FibeGuard pozwolą Ci zachować spokój ducha. Zagwarantuj sobie porządek w salonie każdego dnia.<br>
+Nie martw się bałaganem, wybierz meble obite łatwymi do czyszczenia tkaninami i ciesz się beztroskim użytkowaniem.<br>
+Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku, owoców czy czekolady na białej sofie.
+Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkaniny FibreGuard zmienią Twoje podejście do sprzątania.</p>
 				</div>
 				</div>
 				</div>
@@ -42,8 +43,8 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 				<div class="row">
 				<div class="kafel2-text">
 				<p class="kafel-tytul2">Masz dość zabraniania swojemu psiakowi wchodzenia na kanapę? #2</p>
-				<p class="kafel-opis2">Mamy na to rozwiązanie. Wybierz tkaniny łatwozmywalne FibreGuard, które pozwolą Ci cieszyć się pięknym i nieskazitelnym wnętrzem każdego dnia.
-				Koniec z męczącym praniem kanapy, czy koniecznością rozkładania na niej narzuty.
+				<p class="kafel-opis2">Mamy na to rozwiązanie. Wybierz tkaniny łatwozmywalne FibreGuard, które pozwolą Ci cieszyć się pięknym i nieskazitelnym wnętrzem każdego dnia.<br>
+				Koniec z męczącym praniem kanapy, czy koniecznością rozkładania na niej narzuty.<br>
 				Łatwe do czyszczenia materiały, które wykorzystujemy w naszych sofach z pewnością przypadną Twojemu pupilowi do gustu. Domyślamy się, że Tobie także.</p>
 				</div>
 				</div>
@@ -66,7 +67,7 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 				<div class="col-lg-6 offset-lg-6">
 				<div class="kafel3-text">
 				<p class="kafel-tytul1">Wnętrza bez plam? To rozwiazanie również dla architektów. #3</p>
-				<p class="kafel-opis1">Wysokiej jakości tkaniny łatwozmywalne są odpowiedzią na potrzeby Twoich klientów.Obicie mebli łatwymi do czyszczenia materiałami FibreGuard to połączenie względów praktycznych i estetycznych - w łatwy sposób dopasujesz kolor i wzór obicia do wnętrza.
+				<p class="kafel-opis3">Wysokiej jakości tkaniny łatwozmywalne są odpowiedzią na potrzeby Twoich klientów.Obicie mebli łatwymi do czyszczenia materiałami FibreGuard to połączenie względów praktycznych i estetycznych - w łatwy sposób dopasujesz kolor i wzór obicia do wnętrza.<br>
 				Minimalistyczny styl skandynawski czy kolorowa elegancja? Postaw na tkaniny łatwozmywalne FibreGuard i w prosty sposób wybierz sofę i fotele do swojego projektu.</p>
 				</div>
 				</div>
@@ -89,8 +90,8 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 				<div class="col-lg-6">
 				<div class="row">
 				<div class="kafel4-text">
-				<p class="kafel-tytul2">Twój biznes to mieszkania na wynajem?. #4</p>
-				<p class="kafel-opis2">Wybierz tkaniny na lata, czyli brak zmartwień i dodatkowych wydatków. 
+				<p class="kafel-tytul4">Twój biznes to mieszkania na wynajem? #4</p>
+				<p class="kafel-opis2">Wybierz tkaniny na lata, czyli brak zmartwień i dodatkowych wydatków. <br>
 				Postaw na łatwe do czyszczenia tkaniny FibreGuard, dzięki którym szybko pozbędziesz się wszelkich zabrudzeń, bez konieczności wymiany na nową.</p>
 				</div>
 				</div>
@@ -107,7 +108,7 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
-<p id="text1">SPRAWDŹ JAK ŁATWO ZMYĆ PLAMKĘ<span id="text2"> Z TKANINY FIBREGUARD</span></p>
+<p id="text-fibreguard">SPRAWDŹ JAK ŁATWO ZMYĆ PLAMKĘ<span id="text2"> Z TKANINY FIBREGUARD</span></p>
 </div>
 </div>
 </div>
@@ -123,6 +124,7 @@ Z tkaninami łatwozmywalnymi FibreGuard nie musisz się martwić o plamy z soku,
 
 
 
+<div class="fibreguard-wrapper">
 <div class="container">
 <div class="row">
 
@@ -137,15 +139,15 @@ Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej p
 
 </div>
 </div>
+</div>
 
 
 
-
-
+<div class="ownerzy-wrapper">
 <div class="container">
 <div class="row">
 <div class="col-lg-10 offset-lg-1 d-flex justify-content-center">
-<p id="text1">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
+<p id="text-ownerzy">WSZYSTKIE MEBLE W OFERCIE SCANDICSOFA MOŻESZ ZAMÓWIĆ WYKOŃCZONE TKANINĄ<span id="text2"> ŁATWĄ DO CZYSZCZENIA</span></p>
 </div>
 </div>
 	<div id="ownerzy">
@@ -168,6 +170,7 @@ Wszystkie opakowania wyniesiemy, abyś Ty mógł wygodnie rozsiąść się na no
 
 </div>
 
+</div>
 </div>
 
 
