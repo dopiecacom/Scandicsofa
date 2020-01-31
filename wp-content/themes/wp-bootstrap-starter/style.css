@@ -1054,7 +1054,12 @@ body:not(.theme-preset-active) footer#colophon {
     text-align: right!important;
 }
 
+.baner-wrapper-outter{
+	
+    width: 75%;
+    margin: 0 auto;
 
+}
 
 
 .baner-wrapper{
@@ -1062,6 +1067,8 @@ body:not(.theme-preset-active) footer#colophon {
 	  background-image: linear-gradient(to right, transparent 50%, #38352e 50%);
 	      padding-top: 0px;
 }
+
+
 
 .owl-theme .owl-dots .owl-dot span {
     width: 20px!important;
