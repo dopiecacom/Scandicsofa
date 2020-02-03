@@ -1237,6 +1237,13 @@ display:block
 }
 
 @media screen and (max-width: 576px) {
+	
+	.kafel-opis1, 	.kafel-opis2 ,	.kafel-opis3, 	.kafel-opis4 {
+
+    font-size: 10px;
+
+
+}
 	.baner-modal {
     left: auto;
     top: auto;
