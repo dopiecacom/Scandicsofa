@@ -1123,23 +1123,135 @@ position: absolute;
 }
 
 
-.baner-modal .button-read{
+.baner-modal .button-read .page-scroller{
 	border-radius:20px;
 	background-color: white;
     display: inline;
 	    padding: 10px 40px;
 		    font-weight: 600;
+			font-size:13px;
+			font-size: 16px;
 }
 
+.baner-modal .button-read .page-scroller:hover{
+text-decoration:none;
+}
 .spacer{
 	margin-left:100px;
 	
 }
 
+.navbar-toggler{
+padding: 20px;	
+padding-left:0px;
+}
+
+
+@media screen and (min-width: 1200px) {
+	.logo{
+	display:block;
+}
+.logo.mobile{
+	display:none;
+}
+
+}
+
+@media screen and (max-width: 1199px) {
+.baner-wrapper-outter {
+    width: 100%;
+    margin: 0 auto;
+	
+}
+.baner-modal {
+    left: -50px;
+    height: 500px;
+	    width: 97%;
+		left:auto;
+		top:auto;
+		    top: 85px;
+}
+
+.logo{
+	display:none;
+}
+.logo.mobile{
+	display:block;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+    color: #000;
+    padding-top: 0;
+    padding-bottom: 8px;
+    padding-left: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+.baner-wrapper-outter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.baner-modal {
+    top: auto;
+    left: auto;
+    top: 46px;
+    left: -45px;
+	    height: 402px;
+    width: 652px;
+	
+}
+
+.baner-modal h1 {
+       font-size: 47px;
+
+
+}
+
+}
+
+@media screen and (max-width: 767px) {
+	.baner-modal {
+    left: auto;
+    top: auto;
+    width: 511px;
+	    height: 379px;
+
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	.baner-modal {
+    left: auto;
+    top: auto;
+    width: 506px;
+    height: 376px;
+
+	}
+
+
+}
+
+
+
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
 	COLOR:#e5ceb5;
 
+}
+
+
+.navbar-toggler-icon {
+
+    width: 2em;
+    height: 2em;
 }
 
 #ownerzy h3{

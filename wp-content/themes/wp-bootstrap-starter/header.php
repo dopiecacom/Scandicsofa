@@ -43,7 +43,9 @@
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						
+								<div class ="logo mobile">
+							<img src="http://scandicsofa.devintle.pl/wp-content/uploads/img/scandicsofalogo.png"/>
+						</div>
 						<?php
 							wp_nav_menu(array(
 							'theme_location'    => 'primary',
@@ -57,7 +59,7 @@
 							'walker'          => new wp_bootstrap_navwalker()
 							));
 						?>
-						
+					
 					</nav>
 				</div>
 			</header><!-- #masthead -->
@@ -119,7 +121,7 @@
 					</div>
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8 offset-md-4">
+							<div class="col-xl-8 offset-xl-4 col-lg-12">
 								
 								<div class = "baner-modal">
 									<div class="container">
@@ -131,8 +133,8 @@
 												<h1>Beztroska, komfort </br> i... meble bez plam</h1>
 												<p>Czytaj dalej i ciesz się czystym wnętrzem</p>
 												
-												<div class ="button-read">
-													CZYTAJ WIECEJ
+											<div class ="button-read">
+														<a href="#kafel1" class="page-scroller">CZYTAJ WIECEJ</a>
 												</div>
 											</div>
 											
