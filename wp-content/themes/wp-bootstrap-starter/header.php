@@ -111,7 +111,7 @@
 			
 			
 			
-			<div class="baner-wrapper-outter">
+			<div class="baner-wrapper-outter"><div id="social"> <div>FB</div><div>IN</div></div>
 				
 				<div class="baner-wrapper">
 					<div class="container">
@@ -140,9 +140,7 @@
 											
 											
 										</div>
-									</div>
-									
-									
+									</div>	
 									
 								</div>
 								

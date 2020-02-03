@@ -1055,7 +1055,7 @@ body:not(.theme-preset-active) footer#colophon {
 }
 
 .baner-wrapper-outter{
-	
+	position:relative;
     width: 75%;
     margin: 0 auto;
 
@@ -1155,6 +1155,10 @@ padding-left:0px;
 }
 .logo.mobile{
 	display:none;
+}
+
+#social{
+	display:block!important;
 }
 
 }
@@ -1288,10 +1292,21 @@ display:none;
 }
 
 }
+#social{
+    position: absolute;
+    right: 0;
+display:none;
+    background-color: white;
+    z-index: 100;
+    top: 211px;
 
-
-
-
+}
+#social div{
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    padding-top: 26px;
+}
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover, body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
 	COLOR:#e5ceb5;
 
