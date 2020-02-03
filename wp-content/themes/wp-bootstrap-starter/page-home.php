@@ -155,10 +155,10 @@ Przy użyciu wody i czystej szmatki w kilka chwil zmyjesz plamy, które do tej p
 	<div class="col-lg-4 offset-md-1">
 
 		<h3>Kupując meble Scandicsofa</br> masz pewość że:</h3>
-		<p>Za zamówiony towar zapłacisz przy odbiorze,
-Dostajesz meble w 5 dni roboczych od zamówienia
-Dostarczymy meble pod wskazany adres i wniesiemy niezależnie od piętra,
-Odpakujemy i okażemy w celu zagwarantowania Twojego bezpieczeństwa,
+		<p>Za zamówiony towar zapłacisz przy odbiorze.
+Dostajesz meble w 5 dni roboczych od zamówienia.
+Dostarczymy meble pod wskazany adres i wniesiemy niezależnie od piętra.
+Odpakujemy i okażemy w celu zagwarantowania Twojego bezpieczeństwa.
 Wszystkie opakowania wyniesiemy, abyś Ty mógł wygodnie rozsiąść się na nowej kanapie.</p>
 	</div>
 		<div class="col-lg-6">
