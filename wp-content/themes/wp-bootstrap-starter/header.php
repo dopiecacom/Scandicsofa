@@ -130,7 +130,7 @@
 											
 											
 											<div class="col-md-11 offset-md-1">
-												<h1>Beztroska, komfort </br> i... meble bez plam</h1>
+												<h1>Beztroska, <br class="responsive-br">komfort<br class="responsive-br"> <br class="normal-br"> i... meble bez plam</h1>
 												<p>Czytaj dalej i ciesz się czystym wnętrzem</p>
 												
 											<div class ="button-read">

@@ -1226,16 +1226,44 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
 	}
 }
 
+@media screen and (min-width: 577px) {
+	
+	.responsive-br{
+	display:none;	
+	}
+.normal-br{
+display:block
+}
+}
 
 @media screen and (max-width: 576px) {
 	.baner-modal {
     left: auto;
     top: auto;
     width: 506px;
-    height: 376px;
+  height: 404px;
+	    position: static;
+	
 
 	}
 
+.responsive-br{
+	display:block
+}
+.normal-br{
+display:none;	
+}
+	
+
+.baner-wrapper {
+    background-image: none;
+
+}
+
+.owl-carousel {
+    display: none!important;
+
+}
 
 }
 
