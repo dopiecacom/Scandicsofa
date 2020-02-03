@@ -1240,7 +1240,7 @@ display:block
 	.baner-modal {
     left: auto;
     top: auto;
-    width: 506px;
+    width: auto;
   height: 404px;
 	    position: static;
 	
