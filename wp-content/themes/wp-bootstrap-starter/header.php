@@ -122,7 +122,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xl-8 offset-xl-4 col-lg-12">
-								
+							
 								<div class = "baner-modal">
 									<div class="container">
 										
