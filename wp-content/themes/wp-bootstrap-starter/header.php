@@ -91,7 +91,7 @@
 			
 			<script>
 				
-				
+	
 				
 				
 				jQuery(document).ready(function(){
@@ -111,7 +111,7 @@
 			
 			
 			
-			<div class="baner-wrapper-outter"><div id="social"> <div>FB</div><div>IN</div></div>
+			<div class="baner-wrapper-outter"><div id="social"> <a target="_blank" href="https://www.facebook.com/Scandicsofa-983915751742075/"><div>FB</div></a><a target="_blank" href="https://www.instagram.com/scandicsofa/"><div>IN</div></a></div>
 				
 				<div class="baner-wrapper">
 					<div class="container">

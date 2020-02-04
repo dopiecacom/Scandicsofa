@@ -66,7 +66,7 @@ Trudne do zmycia plamy na meblach to przeszłość. Łatwe do czyszczenia tkanin
 				<div class="row">
 				<div class="col-lg-6 offset-lg-6">
 				<div class="kafel3-text">
-				<p class="kafel-tytul1">Wnętrza bez plam? To rozwiazanie również dla architektów. #3</p>
+				<p class="kafel-tytul1">Wnętrza bez plam? To rozwiązanie również dla architektów. #3</p>
 				<p class="kafel-opis3">Wysokiej jakości tkaniny łatwozmywalne są odpowiedzią na potrzeby Twoich klientów.Obicie mebli łatwymi do czyszczenia materiałami FibreGuard to połączenie względów praktycznych i estetycznych - w łatwy sposób dopasujesz kolor i wzór obicia do wnętrza.<br>
 				Minimalistyczny styl skandynawski czy kolorowa elegancja? Postaw na tkaniny łatwozmywalne FibreGuard i w prosty sposób wybierz sofę i fotele do swojego projektu.</p>
 				</div>
